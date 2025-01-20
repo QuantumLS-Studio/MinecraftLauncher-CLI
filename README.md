@@ -1,2 +1,14 @@
 # MinecraftLauncher-CLI
-基于终端的Minecraft启动器
+
+A non-gui Minecraft launcher written in C++ ⚡
+
+## Intro
+
+## Get it
+
+## Usage
+
+## Feature
+
+## Thanks
+
