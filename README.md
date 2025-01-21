@@ -11,4 +11,3 @@ A non-gui Minecraft launcher written in C++ ⚡
 ## Feature
 
 ## Thanks
-
