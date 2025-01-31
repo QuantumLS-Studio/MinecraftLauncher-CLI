@@ -10,4 +10,16 @@ A non-gui Minecraft launcher written in C++ ⚡
 
 ## Feature
 
-## Thanks
+## Ref
+
+[args](https://github.com/taywee/args.git)
+
+[]
+
+## Contribution
+
+![Contribution]()
+
+## License
+
+[MIT](LICENSE)
