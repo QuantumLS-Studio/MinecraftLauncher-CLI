@@ -46,3 +46,4 @@ CMakeUserPresets.json
 .cache
 build
 .vscode
+.xmake

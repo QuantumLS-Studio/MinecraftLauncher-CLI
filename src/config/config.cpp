@@ -8,6 +8,7 @@ using namespace std::literals;
 class config{
     private:
         toml::table config_file;
+
     public:
         config(const std::string& path){
             config_file = toml::parse_file(path);
