@@ -1,0 +1,34 @@
+[game]
+name="test"
+path="testpath"
+full-screen=false
+max-memory="4G"
+min-memory="2G"
+
+[account]
+type="offline"
+username="test"
+
+[minecraft]
+version="1.16.5"
+mode="client"
+
+[java]
+version="8"
+path="testpath"
+
+[java.args]
+enabled=true
+list=["test1", "test2"]
+
+[mods]
+enabled=true
+
+[mods.loader]
+type="forge"
+version: "xxx"
+
+[mods.list]
+enabled=[
+    {url="https://example.com/mod.jar", name="mod", version="1.0.0", type="forge"}
+]
