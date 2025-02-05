@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <argh.h>
 #include <string>
+#include <fmt/core.h>
 
 #include "include/info.h"
 #include "config/config.cpp"
@@ -13,6 +14,8 @@ int main(int argc, char* argv[]){
         printf("Options:\n");
         printf("  -h, --help    Print this help message\n");
         printf("  -v, --version Print version\n");
+        printf("  -i, --info    Print info\n");
+        printf("  -c, --config  Load special config file\n");
         return 0;
     }
 
@@ -31,18 +34,19 @@ int main(int argc, char* argv[]){
         return 0;
     }
 
-    if(cmdl[{"-c", "--config"}]){
+    if (cmdl[{"-c", "--config"}]){
         std::string config_file;
         cmdl(1) >> config_file;
         config c = config(config_file);
         return 0;
     }
 
-    if (cmdl.pos_args().size() > 0) {
-        printf("Invalid arguments\n");
-        return 1;
+    if (cmdl[{"-l", "--launch"}]){
+        std::string mlp_file;
+        cmdl(1) >> mlp_file;
+        printf("launching minecraft from %s\n", mlp_file.c_str());
+        return 0;
     }
-    
-    printf("Hello, World!\n");
+
     return 0;
 }
