@@ -1,6 +1,0 @@
-#define PROJ_VERSION "0.0.1"
-#define PROJ_NAME "MCL"
-#define PROJ_DESC "A simple Minecraft Launcher"
-#define PROJ_AUTHOR "QuantumLS Studio"
-#define PROJ_LICENSE "MIT License"
-#define PROJ_URL "https://github.com/QuantumLS-Studio/MinecraftLauncher-CLI"

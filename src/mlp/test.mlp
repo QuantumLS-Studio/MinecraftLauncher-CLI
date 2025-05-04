@@ -26,7 +26,7 @@ enabled=true
 
 [mods.loader]
 type="forge"
-version: "xxx"
+version="xxx"
 
 [mods.list]
 enabled=[
